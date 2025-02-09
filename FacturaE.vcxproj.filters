@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{add76732-cc4b-477e-b801-9d5f128c8cc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\common">
+      <UniqueIdentifier>{e5f0b340-8105-4bf8-8299-de24f1e56f55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\common\codigos">
+      <UniqueIdentifier>{08f2ceaf-5ebc-4e79-afc9-357f0f68e598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{18ccbcaa-b1c0-4c2d-a991-7184dc940dba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\header">
+      <UniqueIdentifier>{ef3b4db8-f281-4ad5-913a-4d8b57ce0205}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\FacturaElectronica.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\Persona.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common\Utils.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\header\Emisor.cpp">
+      <Filter>src\header</Filter>
+    </ClCompile>
+    <ClCompile Include="src\header\Receptor.cpp">
+      <Filter>src\header</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\FacturaElectronica.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\Email.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\Identificador.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\Persona.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\Utils.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\codigos\CodigoDescuento.h">
+      <Filter>src\common\codigos</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\codigos\Codigos.h">
+      <Filter>src\common\codigos</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\codigos\Impuesto.h">
+      <Filter>src\common\codigos</Filter>
+    </ClInclude>
+    <ClInclude Include="src\common\codigos\TipoDocumento.h">
+      <Filter>src\common\codigos</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\FieldObject.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\RequiredField.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Result.h">
+      <Filter>src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\ClaveNumerica.h">
+      <Filter>src\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\Emisor.h">
+      <Filter>src\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\NumeracionComprobante.h">
+      <Filter>src\header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\header\Receptor.h">
+      <Filter>src\header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
